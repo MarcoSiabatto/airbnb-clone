@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       <img src={Logo} alt="airbnb" />
-      <SocialIcon url="https://github.com/MarcoSiabatto/airbnb-clone" />
+      <SocialIcon className="social" url="https://github.com/MarcoSiabatto/airbnb-clone" />
     </nav>
   );
 };

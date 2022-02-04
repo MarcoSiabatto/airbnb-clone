@@ -3,12 +3,35 @@
 }
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  padding: 2rem 4rem 1rem 4rem;
 }
 /* Navbar */
-nav{
-    background-color: aqua;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > img {
+  height: 60px;
+  padding: 5px;
+}
+.social{
+  margin: 15px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero > p {
+  width: 50%;
+  text-overflow: wrap;
+  font-size: large;
+}
+.hero>h2{
+  margin-top: 1.5rem;
 }
