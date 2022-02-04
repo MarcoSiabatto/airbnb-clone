@@ -3,10 +3,16 @@
 }
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 section {
   padding: 2rem 4rem 1rem 4rem;
+}
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: bold;
 }
 /* Navbar */
 nav {
@@ -20,9 +26,10 @@ nav > img {
   height: 60px;
   padding: 5px;
 }
-.social{
+.social {
   margin: 15px;
 }
+/* Hero */
 .hero {
   display: flex;
   flex-direction: column;
@@ -32,6 +39,23 @@ nav > img {
   text-overflow: wrap;
   font-size: large;
 }
-.hero>h2{
+.hero > h2 {
   margin-top: 1.5rem;
+}
+/* Card */
+.card {
+  width: 200px;
+  font-size: 12px;
+  border: none;
+}
+.card--image {
+  width: 100%;
+  border-radius: 10px;
+}
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+.card--star{
+  height: 15px;
 }
