@@ -4,7 +4,7 @@ import Star from "../images/star.png";
 
 const Card = () => {
   return (
-    <div className="card">
+    <div className="card border-0">
       <img src={Katie} alt="Katie-zaferes" className="card--image" />
       <div className="card--stats">
         <img src={Star} alt="star" className="card--star" />
