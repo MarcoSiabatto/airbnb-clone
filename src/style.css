@@ -47,10 +47,27 @@ nav > img {
   width: 200px;
   font-size: 12px;
   border: none;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }
 .card--image {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card--title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card--price {
+    margin-top: auto;
 }
 .card--stats {
   display: flex;
