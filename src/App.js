@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Contact from "./components/Contact";
 // Images
+import Katie from "./images/katie-zaferes.png";
 import Whiskers from "./images/cats/mr-whiskerson.png";
 import Fluffy from "./images/cats/fluffykins.png";
 import Felix from "./images/cats/felix.png";
@@ -15,7 +16,14 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img={Katie}
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Life lessons with Katie Zaferes"
+        price={136}
+      />
       <Contact
         img={Whiskers}
         name="Mr. Whiskerson"
